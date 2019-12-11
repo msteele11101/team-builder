@@ -7,10 +7,10 @@ const Form = props => {
     role: ""
   });
 
-  useEffect(() => {
-      console.log("this is the useEffect in form");
-      return setMember(props.memberEdit);
-    }, [props.memberEdit])
+//   useEffect(() => {
+//       console.log("this is the useEffect in form");
+//       return setMember(props.memberEdit);
+//     }, [props.memberEdit])
 
   const changeHandler = event => {
     setMember({ ...member, [event.target.name]: event.target.value });

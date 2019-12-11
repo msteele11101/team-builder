@@ -14,7 +14,7 @@ function App() {
 
   const editForm = (event,member) => {
     console.log("hey editForm just fired");
-    return event,member ;
+    return member ;
 }
 
   return (
